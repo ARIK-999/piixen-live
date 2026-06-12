@@ -17,7 +17,7 @@
 
 > **Watch 50+ live TV channels, HD sports, news, and entertainment — free on any device.**
 
-[🔴 Watch Live](https://piixenlivee.netlify.app/) · [🐛 Report Bug](https://github.com/ARIK-999/piixen-live/issues/new?template=bug_report.md) · [✨ Request Feature](https://github.com/ARIK-999/piixen-live/issues/new?template=feature_request.md)
+[🔴 Watch Live](https://piixenlivee.netlify.app/) · [🐛 Report Bug](https://github.com/ARIK-999/piixen-live/issues/new?template=bug_report.md) · [✨ Request Feature](https://github.com/ARIK-999/piixen-live/issues/new?template=feature_request.md) · [☕ Buy me a coffee](https://www.supportkori.com/ishraq)
 
 </div>
 
@@ -241,6 +241,7 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for more informati
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github)](https://github.com/ARIK-999)
 [![Live Site](https://img.shields.io/badge/Live-piixenlivee.netlify.app-6C63FF?style=flat-square&logo=netlify)](https://piixenlivee.netlify.app/)
+[![Support](https://img.shields.io/badge/Buy%20me%20a%20coffee-SupportKori-FFB347?style=flat-square)](https://www.supportkori.com/ishraq)
 
 ---
 
