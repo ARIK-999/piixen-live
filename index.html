@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PIIXEN LIVE – Watch 50+ live TV channels, HD sports, and entertainment from anywhere." />
+  <meta name="keywords" content="live TV, streaming, sports, PIIXEN, online TV, HD channels" />
+  <meta name="author" content="PIIXEN LIVE" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PIIXEN LIVE – Watch Live TV" />
+  <meta property="og:description" content="50+ live TV channels, HD sports streaming, and entertainment. Watch free on any device." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://piixenlivee.netlify.app/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PIIXEN LIVE – Watch Live TV" />
+  <meta name="twitter:description" content="50+ live TV channels, HD sports streaming and entertainment." />
+
+  <title>PIIXEN LIVE – Watch Live TV</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon"><i class="fa-solid fa-tv"></i></span>
+        <span class="logo-text">PIIXEN <span class="logo-accent">LIVE</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#channels" class="nav-link">Channels</a>
+        <a href="#sports" class="nav-link">Sports</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="search-box" id="searchBox">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="searchInput" placeholder="Search channels..." autocomplete="off" />
+          <button class="search-clear" id="searchClear" aria-label="Clear search"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fa-solid fa-circle live-dot"></i> LIVE NOW</div>
+      <h1 class="hero-title">Watch <span class="gradient-text">Live TV</span><br />Anywhere, Anytime</h1>
+      <p class="hero-subtitle">50+ premium channels · HD quality · Sports, news, entertainment & more</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Live Channels</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">HD</span><span class="stat-label">Quality</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Non-stop</span></div>
+      </div>
+      <div class="hero-cta">
+        <a href="#channels" class="btn btn-primary"><i class="fa-solid fa-play"></i> Start Watching</a>
+        <a href="#sports" class="btn btn-outline"><i class="fa-solid fa-futbol"></i> Live Sports</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="tv-mockup">
+        <div class="tv-screen">
+          <div class="tv-static">
+            <div class="channel-preview">
+              <span class="preview-label"><i class="fa-solid fa-circle live-dot-sm"></i> LIVE</span>
+            </div>
+          </div>
+        </div>
+        <div class="tv-stand"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORY FILTER ===== -->
+  <section class="categories-section" id="channels">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Browse Channels</h2>
+        <p class="section-subtitle">Select a category to filter channels</p>
+      </div>
+      <div class="category-tabs" id="categoryTabs">
+        <button class="cat-tab active" data-cat="all"><i class="fa-solid fa-border-all"></i> All</button>
+        <button class="cat-tab" data-cat="news"><i class="fa-solid fa-newspaper"></i> News</button>
+        <button class="cat-tab" data-cat="sports"><i class="fa-solid fa-futbol"></i> Sports</button>
+        <button class="cat-tab" data-cat="entertainment"><i class="fa-solid fa-film"></i> Entertainment</button>
+        <button class="cat-tab" data-cat="music"><i class="fa-solid fa-music"></i> Music</button>
+        <button class="cat-tab" data-cat="kids"><i class="fa-solid fa-star"></i> Kids</button>
+        <button class="cat-tab" data-cat="movies"><i class="fa-solid fa-clapperboard"></i> Movies</button>
+        <button class="cat-tab" data-cat="religious"><i class="fa-solid fa-hands-praying"></i> Religious</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHANNELS GRID ===== -->
+  <section class="channels-grid-section">
+    <div class="section-container">
+      <div id="searchResults" class="search-results-bar" style="display:none">
+        <span id="searchResultsText"></span>
+        <button id="clearSearch" class="clear-search-btn">Clear</button>
+      </div>
+      <div class="channels-grid" id="channelsGrid">
+        <!-- Populated by JS -->
+      </div>
+      <div class="no-results" id="noResults" style="display:none">
+        <i class="fa-solid fa-satellite-dish"></i>
+        <p>No channels found for "<span id="noResultsQuery"></span>"</p>
+        <button class="btn btn-outline" onclick="clearSearch()">Show All Channels</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLAYER MODAL ===== -->
+  <div class="player-overlay" id="playerOverlay">
+    <div class="player-modal" id="playerModal">
+      <div class="player-header">
+        <div class="player-channel-info">
+          <div class="player-logo" id="playerLogo"></div>
+          <div>
+            <h3 class="player-channel-name" id="playerChannelName">Channel Name</h3>
+            <span class="player-status"><i class="fa-solid fa-circle live-dot-sm"></i> LIVE</span>
+          </div>
+        </div>
+        <button class="player-close" id="playerClose" aria-label="Close player">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="player-body">
+        <iframe id="playerIframe" src="" allowfullscreen allow="autoplay; fullscreen" frameborder="0"></iframe>
+        <div class="player-loader" id="playerLoader">
+          <div class="loader-spinner"></div>
+          <p>Loading stream…</p>
+        </div>
+      </div>
+      <div class="player-footer">
+        <button class="player-btn" id="playerFullscreen"><i class="fa-solid fa-expand"></i> Fullscreen</button>
+        <span class="player-quality"><i class="fa-solid fa-signal"></i> HD</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SPORTS SECTION ===== -->
+  <section class="sports-section" id="sports">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Live Sports</h2>
+        <p class="section-subtitle">Don't miss a moment of the action</p>
+      </div>
+      <div class="sports-grid" id="sportsGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section class="features-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Why PIIXEN LIVE?</h2>
+        <p class="section-subtitle">Built for the best streaming experience</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-tv"></i></div>
+          <h3>50+ Live Channels</h3>
+          <p>News, sports, entertainment, music, kids and more — all in one place.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-signal"></i></div>
+          <h3>HD Streaming</h3>
+          <p>Crystal-clear high-definition streams with adaptive quality control.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <h3>Any Device</h3>
+          <p>Fully responsive — watch on desktop, tablet, or mobile seamlessly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-moon"></i></div>
+          <h3>Dark &amp; Light Mode</h3>
+          <p>Switch themes instantly for comfortable viewing day or night.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <h3>Smart Search</h3>
+          <p>Find any channel instantly with real-time search filtering.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Lightning Fast</h3>
+          <p>Optimised for speed — streams load fast with minimal buffering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="section-container about-inner">
+      <div class="about-text">
+        <h2 class="section-title">About PIIXEN LIVE</h2>
+        <p>PIIXEN LIVE is a modern live TV and sports streaming web platform designed to provide seamless access to live television channels, sports events, and entertainment content from any device.</p>
+        <p>Built with a focus on speed, accessibility, and user experience, the platform delivers a clean interface, multilingual support, and responsive design for desktop, tablet, and mobile users.</p>
+        <div class="about-tags">
+          <span class="tag">Web Development</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Streaming</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="about-stat-card">
+          <span class="about-stat-num">50+</span>
+          <span class="about-stat-label">Channels</span>
+        </div>
+        <div class="about-stat-card">
+          <span class="about-stat-num">HD</span>
+          <span class="about-stat-label">Quality</span>
+        </div>
+        <div class="about-stat-card">
+          <span class="about-stat-num">24/7</span>
+          <span class="about-stat-label">Live</span>
+        </div>
+        <div class="about-stat-card">
+          <span class="about-stat-num">Free</span>
+          <span class="about-stat-label">Access</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-icon"><i class="fa-solid fa-tv"></i></span>
+            <span class="logo-text">PIIXEN <span class="logo-accent">LIVE</span></span>
+          </a>
+          <p>Your gateway to 50+ live TV channels, HD sports, and non-stop entertainment.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#channels">Channels</a>
+          <a href="#sports">Sports</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="footer-links">
+          <h4>Categories</h4>
+          <a href="#" onclick="filterCategory('news')">News</a>
+          <a href="#" onclick="filterCategory('sports')">Sports</a>
+          <a href="#" onclick="filterCategory('entertainment')">Entertainment</a>
+          <a href="#" onclick="filterCategory('movies')">Movies</a>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 PIIXEN LIVE. All rights reserved. Licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.</p>
+        <p class="footer-disclaimer">⚠️ PIIXEN LIVE embeds publicly available streams. We do not host or store any media content.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/channels.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── Validate HTML ────────────────────────────────────────
+  html-validation:
+    name: HTML Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts || npm install --ignore-scripts
+
+      - name: Lint HTML
+        run: npx htmlhint index.html
+
+  # ── Validate JavaScript ──────────────────────────────────
+  js-lint:
+    name: JavaScript Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts || npm install --ignore-scripts
+
+      - name: Lint JavaScript
+        run: npx eslint js/ --ext .js --no-eslintrc -c '{"env":{"browser":true,"es2021":true},"rules":{"no-unused-vars":"warn","no-undef":"off"}}' || true
+
+  # ── Validate CSS ─────────────────────────────────────────
+  css-lint:
+    name: CSS Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install stylelint stylelint-config-standard --no-save
+
+      - name: Lint CSS
+        run: npx stylelint "css/**/*.css" --config '{"extends":["stylelint-config-standard"]}' || true
+
+  # ── Link Check ───────────────────────────────────────────
+  link-check:
+    name: Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'no'
+          config-file: '.github/mlc_config.json'
+        continue-on-error: true
+
+  # ── Size Check ───────────────────────────────────────────
+  size-check:
+    name: Asset Size Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check total asset sizes
+        run: |
+          echo "=== File sizes ==="
+          find . -name "*.html" -o -name "*.css" -o -name "*.js" | grep -v node_modules | xargs ls -lh 2>/dev/null || true
+          echo ""
+          echo "=== Project total ==="
+          du -sh --exclude=node_modules --exclude=.git . 2>/dev/null || du -sh . 2>/dev/null || true

@@ -1,0 +1,47 @@
+﻿{
+  "name": "piixen-live",
+  "version": "1.0.0",
+  "description": "PIIXEN LIVE — A modern live TV and sports streaming web platform with 50+ channels.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 8080",
+    "dev": "npx live-server --port=8080 --open=index.html",
+    "lint:html": "npx htmlhint index.html",
+    "lint:css": "npx stylelint css/styles.css",
+    "lint:js": "npx eslint js/",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js"
+  },
+  "keywords": [
+    "live-tv",
+    "streaming",
+    "sports",
+    "piixen",
+    "live-channels",
+    "web-app",
+    "javascript",
+    "html5",
+    "css3",
+    "responsive"
+  ],
+  "author": "PIIXEN LIVE",
+  "license": "MIT",
+  "homepage": "https://piixenlivee.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARIK-999/piixen-live.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARIK-999/piixen-live/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "htmlhint": "^1.1.4",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
