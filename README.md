@@ -1,173 +1,269 @@
-<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=📺+PIIXEN+LIVE;50%2B+Live+TV+Channels;HD+Sports+%26+Entertainment;Fast+•+Modern+•+Responsive" alt="Typing SVG" />
+live.piixen.com
 
-# 📺 PIIXEN LIVE
+﻿<div align="center">
 
-### Modern Live TV & Sports Streaming Platform
+<img src="https://img.shields.io/badge/PIIXEN-LIVE-6C63FF?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMSAzSDNjLTEuMSAwLTIgLjktMiAydjE0YzAgMS4xLjkgMiAyIDJoMThjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptMCAxNkgzVjVoMTh2MTR6bS04LTJsNS01LTUtNS0xLjQgMS40IDMuNiAzLjYtMy42IDMuNkwxMyAxN3oiLz48L3N2Zz4=" alt="PIIXEN LIVE" />  PIIXEN LIVE 📺
 
-> Watch Live TV, Sports, News & Entertainment Anywhere, Anytime.
+Modern Live TV & Sports Streaming Platform
 
-<br>
+> Watch 50+ live TV channels, HD sports, news, and entertainment — free on any device.
 
-[![🌐 Live Website](https://img.shields.io/badge/LIVE_SITE-live.piixen.com-6C63FF?style=for-the-badge)](https://live.piixen.com)
-[![👨‍💻 Portfolio](https://img.shields.io/badge/PORTFOLIO-Ishraq_Ahmed-00C896?style=for-the-badge)](https://www.ishraq.piixen.com)
-[![☕ Buy Me A Coffee](https://img.shields.io/badge/BUY_ME_A_COFFEE-SUPPORT_PROJECT-FFB347?style=for-the-badge)](https://www.supportkori.com/ishraq)
 
-<br>
 
-<p>
-  <img src="https://img.shields.io/badge/CHANNELS-50%2B-FF4B6E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STREAMING-HD-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DEVICES-All-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-brightgreen?style=for-the-badge" />
-</p>
+🔴 Watch Live · 🐛 Report Bug · ✨ Request Feature · ☕ Buy me a coffee
 
-<br>
+</div>    
+---  ✨ Features
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+Feature	Description
 
-</div>
+📺 50+ Live Channels	News, sports, entertainment, music, kids, movies & religious
+🔴 HD Streaming	Crystal-clear high-definition streams with adaptive quality
+📱 Fully Responsive	Desktop, tablet, and mobile — pixel-perfect on every screen
+🌙 Dark & Light Mode	Instant theme switching with OS-preference detection
+🔍 Smart Search	Real-time channel search with debounced input
+🏷️ Category Filters	Browse by News, Sports, Entertainment, Music, Kids, Movies, Religious
+⚡ Lightning Fast	No frameworks, no build step — pure vanilla JS for maximum speed
+♿ Accessible	Keyboard navigation, ARIA labels, reduced-motion support
+🌍 Multilingual	English, Bengali, Hindi, Arabic, Urdu channels
+🔑 Ctrl+K Search	Power-user keyboard shortcut to focus search instantly
+
 
 ---
 
-## 🌟 Features
+🖥️ Preview
 
-- 📺 50+ Live TV Channels
-- ⚽ Live Sports Streaming
-- 🎬 Entertainment & Movies
-- 📰 News Channels
-- 🎵 Music Channels
-- 👶 Kids Channels
-- 🌙 Dark & Light Mode
-- 🔍 Instant Search
-- 📱 Fully Responsive Design
-- ⚡ Fast & Lightweight
-- ♿ Accessibility Friendly
-- 🌍 Multilingual Support
-- 🔑 Keyboard Shortcuts
+┌─────────────────────────────────────────────────────────┐
+│  🟣 PIIXEN LIVE              🔍 Search  🌙  ☰          │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│   🔴 LIVE NOW                      ┌──────────────┐    │
+│   Watch Live TV                    │   📺         │    │
+│   Anywhere, Anytime                │  ● LIVE      │    │
+│                                    └──────────────┘    │
+│   50+ Channels · HD · 24/7                             │
+│   [▶ Start Watching] [⚽ Live Sports]                   │
+│                                                         │
+├─────────────────────────────────────────────────────────┤
+│  [All] [News] [Sports] [Entertainment] [Music] [Kids]   │
+├─────────────────────────────────────────────────────────┤
+│  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐         │
+│  │ 📡   │ │ 🌐   │ │ 📺   │ │ ⭐   │ │ 🎵   │         │
+│  │ Al   │ │ BBC  │ │ CNN  │ │ Star │ │ MTV  │         │
+│  │ Jazz │ │ World│ │ Int. │ │ Jals.│ │ Hits │         │
+│  └──────┘ └──────┘ └──────┘ └──────┘ └──────┘         │
+└─────────────────────────────────────────────────────────┘
 
----
-
-## 🚀 Live Website
-
-### 🌐 https://live.piixen.com
-
-Access PIIXEN LIVE from any modern device and enjoy uninterrupted streaming.
-
----
-
-## ☕ Support The Project
-
-If you enjoy using PIIXEN LIVE, consider supporting its development.
-
-### ☕ Buy Me A Coffee
-
-https://www.supportkori.com/ishraq
-
-Your support helps keep the project alive and continuously improved.
 
 ---
 
-## 👨‍💻 Developer
+🚀 Quick Start
 
-### Ishraq Ahmed
+Option 1 — Open Directly
 
-Entrepreneur • IT Specialist • Web Developer • Writer
+No installation needed. Just open index.html in any modern browser:
 
-### Portfolio
+Clone the repo
 
-🌐 https://www.ishraq.piixen.com
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| JavaScript (ES6+) | Functionality |
-| Font Awesome | Icons |
-| Google Fonts | Typography |
-
----
-
-## 🚀 Quick Start
-
-### Clone Repository
-
-```bash
 git clone https://github.com/ARIK-999/piixen-live.git
+
+Navigate to the project
+
 cd piixen-live
-```
 
-### Run Local Server
+Open in browser (macOS)
 
-```bash
+open index.html
+
+Open in browser (Linux)
+
+xdg-open index.html
+
+Open in browser (Windows)
+
+start index.html
+
+Option 2 — Local Dev Server
+
+For a better local experience with live reload:
+
+Using Python (built-in)
+
 python3 -m http.server 8080
-```
 
-Open:
+Using Node.js (npx)
 
-```text
-http://localhost:8080
-```
+npx serve .
 
----
+Using VS Code
 
-## 📱 Supported Devices
+Install "Live Server" extension → Right-click index.html → "Open with Live Server"
 
-- Desktop
-- Laptop
-- Android
-- iPhone
-- Tablet
-- Smart TV Browsers
+Then visit http://localhost:8080
+
 
 ---
 
-## ⚠️ Disclaimer
+📁 Project Structure
 
-PIIXEN LIVE embeds publicly available streams from external sources.
+piixen-live/
+├── 📄 index.html              # Main HTML entry point
+├── 📂 css/
+│   └── styles.css             # All styles (variables, components, responsive)
+├── 📂 js/
+│   ├── channels.js            # Channel & sports data (50+ entries)
+│   ├── main.js                # App logic, rendering, category filtering
+│   ├── player.js              # Modal video player with fullscreen support
+│   ├── search.js              # Real-time search with debounce
+│   └── theme.js               # Dark/light mode with localStorage persistence
+├── 📂 assets/
+│   └── icons/                 # Favicon and PWA icons
+├── 📂 .github/
+│   ├── workflows/ci.yml       # GitHub Actions CI
+│   ├── ISSUE_TEMPLATE/        # Bug report & feature request templates
+│   └── PULL_REQUEST_TEMPLATE.md
+├── 📄 netlify.toml            # Netlify deployment config
+├── 📄 package.json            # Project metadata
+├── 📄 .gitignore
+├── 📄 LICENSE                 # MIT License
+├── 📄 CONTRIBUTING.md
+├── 📄 CHANGELOG.md
+├── 📄 CODE_OF_CONDUCT.md
+└── 📄 SECURITY.md
 
-This project does not host, store, or distribute copyrighted media files.
-
-All content belongs to its respective owners.
 
 ---
 
-## 📄 License
+🛠️ Tech Stack
 
-Released under the MIT License.
+Technology	Purpose
+
+HTML5	Semantic markup, accessibility, SEO meta tags
+CSS3	Custom properties, Grid, Flexbox, animations, responsive design
+Vanilla JavaScript (ES6+)	DOM manipulation, event handling, state management
+Font Awesome 6	Icon system
+Google Fonts	Inter + Space Grotesk typefaces
+Netlify	Hosting, CDN, continuous deployment
+
+> Zero dependencies. No React, no Vue, no bundler — just fast, clean native web tech.
+
+
+
 
 ---
 
-<div align="center">
+➕ Adding a New Channel
 
-## 🌐 LIVE WEBSITE
+Edit js/channels.js and add a new object to the CHANNELS array:
 
-### https://live.piixen.com
+{
+id: 55,                            // Unique integer ID
+name: "My Channel",                // Display name
+category: "entertainment",         // news|sports|entertainment|music|kids|movies|religious
+icon: "📺",                       // Emoji fallback when logo isn't available
+logo: "https://example.com/logo.png", // Optional logo URL
+stream: "https://youtube.com/embed/VIDEO_ID?autoplay=1", // Embed URL
+quality: "HD",                     // "HD" or "SD"
+language: "English"                // Primary language
+}
 
-<br>
 
-## 👨‍💻 PORTFOLIO
+---
 
-### https://www.ishraq.piixen.com
+🚢 Deployment
 
-<br>
+Deploy to Netlify (Recommended)
 
-## ☕ BUY ME A COFFEE
+1. Fork this repo
 
-### https://www.supportkori.com/ishraq
 
-<br>
+2. Go to netlify.com → New site from Git
 
-⭐ If you like this project, please consider starring the repository.
 
-Made with ❤️ by **Ishraq Ahmed**
+3. Select your fork → Branch: main
 
-</div>
+
+4. Build command: (leave empty)
+
+
+5. Publish directory: . (root)
+
+
+6. Click Deploy
+
+
+
+Deploy to GitHub Pages
+
+In your repo settings, go to Pages → Source → main branch → / (root) → Save
+
+Your site will be at: https://ARIK-999.github.io/piixen-live/
+
+Deploy to Vercel
+
+npx vercel --prod
+
+
+---
+
+🤝 Contributing
+
+Contributions are what make the open source community amazing. Any contributions you make are greatly appreciated.
+
+See CONTRIBUTING.md for full guidelines.
+
+Quick steps:
+
+1. Fork the repo
+
+
+2. Create a feature branch: git checkout -b feature/amazing-feature
+
+
+3. Commit your changes: git commit -m 'feat: add amazing feature'
+
+
+4. Push to the branch: git push origin feature/amazing-feature
+
+
+5. Open a Pull Request
+
+
+
+
+---
+
+📝 Changelog
+
+See CHANGELOG.md for a full version history.
+
+
+---
+
+⚠️ Legal Disclaimer
+
+PIIXEN LIVE is an open-source web project that embeds publicly available live streams via iframe. We do not host, store, or distribute any media content. All stream URLs are publicly accessible on the web. This platform is intended for educational and demonstration purposes only.
+
+If you are a content owner and believe your content is being linked inappropriately, please open an issue and it will be removed promptly.
+
+
+---
+
+📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+
+---
+
+🙋 Author
+
+PIIXEN LIVE — Built with ❤️
+
+
+---
+
+<div align="center">    
+  <sub>⭐ Star this repo if you found it useful!</sub>    
+</div>  
