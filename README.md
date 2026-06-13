@@ -136,7 +136,6 @@ Access PIIXEN LIVE from anywhere and enjoy uninterrupted live streaming.
 | JavaScript (ES6+) | Application Logic |
 | Font Awesome | Icons |
 | Google Fonts | Typography |
-| Netlify | Hosting & Deployment |
 
 ---
 
