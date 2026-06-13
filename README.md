@@ -1,49 +1,98 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=📺+PIIXEN+LIVE;50%2B+Live+TV+Channels;HD+Sports+%26+Entertainment;Fast+•+Modern+•+Responsive" alt="Typing SVG" />
+
 # 📺 PIIXEN LIVE
 
 ### Modern Live TV & Sports Streaming Platform
 
-[![Live Website](https://img.shields.io/badge/🌐_LIVE_WEBSITE-live.piixen.com-6C63FF?style=for-the-badge)](https://live.piixen.com)
+> Watch Live TV, Sports, News & Entertainment Anywhere, Anytime.
+
+<br>
+
+[![🌐 Live Website](https://img.shields.io/badge/LIVE_SITE-live.piixen.com-6C63FF?style=for-the-badge)](https://live.piixen.com)
+[![👨‍💻 Portfolio](https://img.shields.io/badge/PORTFOLIO-Ishraq_Ahmed-00C896?style=for-the-badge)](https://www.ishraq.piixen.com)
+[![☕ Buy Me A Coffee](https://img.shields.io/badge/BUY_ME_A_COFFEE-SUPPORT_PROJECT-FFB347?style=for-the-badge)](https://www.supportkori.com/ishraq)
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/CHANNELS-50%2B-FF4B6E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STREAMING-HD-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DEVICES-All-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-brightgreen?style=for-the-badge" />
+</p>
+
+<br>
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Channels](https://img.shields.io/badge/Channels-50%2B-FF4B6E?style=flat-square)](https://live.piixen.com)
-
-<br>
-
-## 🌐 LIVE WEBSITE
-
-# https://live.piixen.com
-
-<br>
-
-## ☕ SUPPORT THE PROJECT
-
-[![☕ BUY ME A COFFEE](https://img.shields.io/badge/☕_BUY_ME_A_COFFEE-SUPPORT_THE_PROJECT-FFB347?style=for-the-badge)](https://www.supportkori.com/ishraq)
-
-### ❤️ Your support helps keep PIIXEN LIVE running and improving.
-
-[🔴 Watch Live](https://live.piixen.com) • [☕ Buy Me A Coffee](https://www.supportkori.com/ishraq)
 
 </div>
 
 ---
 
-## ✨ Features
+## 🌟 Features
 
-- 📺 50+ Live Channels
-- 🔴 HD Streaming
-- 📱 Fully Responsive
+- 📺 50+ Live TV Channels
+- ⚽ Live Sports Streaming
+- 🎬 Entertainment & Movies
+- 📰 News Channels
+- 🎵 Music Channels
+- 👶 Kids Channels
 - 🌙 Dark & Light Mode
-- 🔍 Smart Search
-- 🏷️ Category Filters
-- ⚡ Lightning Fast
-- ♿ Accessible
-- 🌍 Multilingual
-- 🔑 Ctrl+K Search
+- 🔍 Instant Search
+- 📱 Fully Responsive Design
+- ⚡ Fast & Lightweight
+- ♿ Accessibility Friendly
+- 🌍 Multilingual Support
+- 🔑 Keyboard Shortcuts
+
+---
+
+## 🚀 Live Website
+
+### 🌐 https://live.piixen.com
+
+Access PIIXEN LIVE from any modern device and enjoy uninterrupted streaming.
+
+---
+
+## ☕ Support The Project
+
+If you enjoy using PIIXEN LIVE, consider supporting its development.
+
+### ☕ Buy Me A Coffee
+
+https://www.supportkori.com/ishraq
+
+Your support helps keep the project alive and continuously improved.
+
+---
+
+## 👨‍💻 Developer
+
+### Ishraq Ahmed
+
+Entrepreneur • IT Specialist • Web Developer • Writer
+
+### Portfolio
+
+🌐 https://www.ishraq.piixen.com
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript (ES6+) | Functionality |
+| Font Awesome | Icons |
+| Google Fonts | Typography |
 
 ---
 
@@ -62,7 +111,7 @@ cd piixen-live
 python3 -m http.server 8080
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:8080
@@ -70,48 +119,55 @@ http://localhost:8080
 
 ---
 
-## 🛠️ Tech Stack
+## 📱 Supported Devices
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Font Awesome
-- Google Fonts
+- Desktop
+- Laptop
+- Android
+- iPhone
+- Tablet
+- Smart TV Browsers
 
 ---
 
-## ⚠️ Legal Disclaimer
+## ⚠️ Disclaimer
 
-PIIXEN LIVE embeds publicly available live streams.
+PIIXEN LIVE embeds publicly available streams from external sources.
 
-PIIXEN LIVE does not host, store, or distribute any copyrighted media content.
+This project does not host, store, or distribute copyrighted media files.
+
+All content belongs to its respective owners.
 
 ---
 
 ## 📄 License
 
-MIT License
-
----
-
-## 🙋 Author
-
-### PIIXEN LIVE
-
-[![Live Site](https://img.shields.io/badge/🌐_live.piixen.com-6C63FF?style=for-the-badge)](https://live.piixen.com)
-
-[![☕ Buy Me A Coffee](https://img.shields.io/badge/☕_Support_Project-FFB347?style=for-the-badge)](https://www.supportkori.com/ishraq)
+Released under the MIT License.
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if you found it useful!
+## 🌐 LIVE WEBSITE
 
-### 🌐 https://live.piixen.com
+### https://live.piixen.com
 
-### ☕ https://www.supportkori.com/ishraq
+<br>
 
-Made with ❤️ by PIIXEN LIVE
+## 👨‍💻 PORTFOLIO
+
+### https://www.ishraq.piixen.com
+
+<br>
+
+## ☕ BUY ME A COFFEE
+
+### https://www.supportkori.com/ishraq
+
+<br>
+
+⭐ If you like this project, please consider starring the repository.
+
+Made with ❤️ by **Ishraq Ahmed**
 
 </div>
